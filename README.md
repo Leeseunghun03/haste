@@ -93,6 +93,7 @@ Stand-alone benchmarking and GUI apps:
     $ make
 
 Custom:
+
     $ git clone https://github.com/Leeseunghun03/haste.git
     $ cd haste
     $ mkdir build && cd build
