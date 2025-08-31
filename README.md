@@ -92,6 +92,13 @@ Stand-alone benchmarking and GUI apps:
     $ cmake .. -DCMAKE_BUILD_TYPE=Release -DGUI=true
     $ make
 
+Custom:
+    $ git clone https://github.com/Leeseunghun03/haste.git
+    $ cd haste
+    $ mkdir build && cd build
+    $ cmake .. -DCMAKE_BUILD_TYPE=Release -DGUI=true   -Dgflags_DIR=/usr/lib/x86_64-linux-gnu/cmake/gflags
+    $ make
+
 
 ### GUI app
 To run the GUI app on an [example dataset](http://rpg.ifi.uzh.ch/datasets/davis/shapes_translation.zip), execute the following command:
