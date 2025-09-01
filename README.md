@@ -99,6 +99,7 @@ Custom:
     $ mkdir build && cd build
     $ cmake .. -DCMAKE_BUILD_TYPE=Release -DGUI=true   -Dgflags_DIR=/usr/lib/x86_64-linux-gnu/cmake/gflags
     $ make
+    $ ./tracking_app_gui --events_file=../../Downloads/boxes_translation/events.txt --camera_params_file=../../Downloads/boxes_translation/calib.txt
 
 
 ### GUI app
